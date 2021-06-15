@@ -35,8 +35,8 @@ console.log(x, y, a, b); // -> 10, 'abc', 10, 'abc'
 2) arr.push(1);
 ```
 
-[1번 코드](https://user-images.githubusercontent.com/59503369/122058192-567c5500-ce26-11eb-8af7-3c861fb5d4a5.PNG)
-[2번 코드](https://user-images.githubusercontent.com/59503369/122058247-62681700-ce26-11eb-9cc8-84d2da101b3a.PNG)
+![image](https://user-images.githubusercontent.com/59503369/122058192-567c5500-ce26-11eb-8af7-3c861fb5d4a5.PNG)
+![image](https://user-images.githubusercontent.com/59503369/122058247-62681700-ce26-11eb-9cc8-84d2da101b3a.PNG)
 
 arr이 갖는 변수의 값은 정적인 값이다. 변수의 값이 바뀌는 것이 아닌 메모리 속의 배열 값만 바뀌는 것이다.
 
@@ -57,7 +57,7 @@ var refCopy = reference;
 var obj = { first: 'reference' };
 ```
 
-[메모리 상태](https://user-images.githubusercontent.com/59503369/122058443-95aaa600-ce26-11eb-8a4b-50b95d44c176.PNG)
+![image](https://user-images.githubusercontent.com/59503369/122058443-95aaa600-ce26-11eb-8a4b-50b95d44c176.PNG)
 
 ```jsx
 var obj = { first: 'reference' };
@@ -107,7 +107,7 @@ var twoHundred = multiply(hundred, two);
 
 hundred라는 변수에 100이라는 값이 저장되어있고 이 값을 multiply로 넘겼을 때, 변수 x는 100이라는 값을 가지게 됩니다. 값은 우리가 = 연산자를 써서 할당한 것 처럼 복사되고, hundred 변수는 아무런 영향도 미치지 않습니다.
 
-[PAUSE 상태](https://user-images.githubusercontent.com/59503369/122058525-aa873980-ce26-11eb-9c5f-ddf908742dfe.PNG)
+[image](https://user-images.githubusercontent.com/59503369/122058525-aa873980-ce26-11eb-9c5f-ddf908742dfe.PNG)
 
 ## 순수 함수(Pure Functions)
 
