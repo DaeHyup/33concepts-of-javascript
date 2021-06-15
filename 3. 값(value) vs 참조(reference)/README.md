@@ -6,7 +6,7 @@ var y = 'abc';
 var z = null;
 ```
 
-![initial](https://user-images.githubusercontent.com/59503369/122058080-39e01d00-ce26-11eb-8446-b11593c8322b.png)
+![image](https://user-images.githubusercontent.com/59503369/122058080-39e01d00-ce26-11eb-8446-b11593c8322b.png)
 
 x는 10이란 값을 가지고 있고, y는 abc란 값을 가지고 있다.
 
@@ -22,7 +22,7 @@ console.log(x, y, a, b); // -> 10, 'abc', 10, 'abc'
 
 '=' 이라는 키워드를 이용하여 할당할 때, 새로운 변수에 값을 복사 하게 됩니다. a와 x는 둘 다 10이란 값을 가지고 있고 b와 y는 둘 다 'abc'라는 값을 가지고 있지만 이들은 분리되어 있습니다 왜냐하면 값들이 복사되었기 때문!
 
-![initial](https://user-images.githubusercontent.com/59503369/122058124-45334880-ce26-11eb-8145-b224c92ddda6.PNG)
+![image](https://user-images.githubusercontent.com/59503369/122058124-45334880-ce26-11eb-8145-b224c92ddda6.PNG)
 
 ## 객체(Objects)
 
@@ -49,7 +49,7 @@ var reference = [1];
 var refCopy = reference;
 ```
 
-![initial](https://user-images.githubusercontent.com/59503369/122058361-8297d600-ce26-11eb-853b-3a96c73054bb.PNG)
+![image](https://user-images.githubusercontent.com/59503369/122058361-8297d600-ce26-11eb-853b-3a96c73054bb.PNG)
 
 ## 참조 재할당하기
 
@@ -64,7 +64,7 @@ var obj = { first: 'reference' };
 obj = { second: 'ref2' };
 ```
 
-![initial](https://user-images.githubusercontent.com/59503369/122058487-9fcca480-ce26-11eb-9cb4-6bc77f1873d5.PNG)
+![image](https://user-images.githubusercontent.com/59503369/122058487-9fcca480-ce26-11eb-9cb4-6bc77f1873d5.PNG)
 
 이 경우에는 객체 { first: 'reference' } 가 더이상 접근 불가능하고 가비지 콜렉션 될 수 있다.
 
