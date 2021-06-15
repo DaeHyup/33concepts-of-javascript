@@ -107,7 +107,7 @@ var twoHundred = multiply(hundred, two);
 
 hundred라는 변수에 100이라는 값이 저장되어있고 이 값을 multiply로 넘겼을 때, 변수 x는 100이라는 값을 가지게 됩니다. 값은 우리가 = 연산자를 써서 할당한 것 처럼 복사되고, hundred 변수는 아무런 영향도 미치지 않습니다.
 
-[image](https://user-images.githubusercontent.com/59503369/122058525-aa873980-ce26-11eb-9c5f-ddf908742dfe.PNG)
+![image](https://user-images.githubusercontent.com/59503369/122058525-aa873980-ce26-11eb-9c5f-ddf908742dfe.PNG)
 
 ## 순수 함수(Pure Functions)
 
