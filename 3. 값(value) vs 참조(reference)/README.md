@@ -6,7 +6,7 @@ var y = 'abc';
 var z = null;
 ```
 
-[Untitled](https://www.notion.so/c2b6e033fc7f416e8bbddafe4668389f)
+[](https://user-images.githubusercontent.com/59503369/122058080-39e01d00-ce26-11eb-8446-b11593c8322b.png)
 
 x는 10이란 값을 가지고 있고, y는 abc란 값을 가지고 있다.
 
@@ -22,7 +22,7 @@ console.log(x, y, a, b); // -> 10, 'abc', 10, 'abc'
 
 '=' 이라는 키워드를 이용하여 할당할 때, 새로운 변수에 값을 복사 하게 됩니다. a와 x는 둘 다 10이란 값을 가지고 있고 b와 y는 둘 다 'abc'라는 값을 가지고 있지만 이들은 분리되어 있습니다 왜냐하면 값들이 복사되었기 때문!
 
-[Untitled](https://www.notion.so/0a816c6a1a21431ba3165751cb0cd7ba)
+[](https://user-images.githubusercontent.com/59503369/122058124-45334880-ce26-11eb-8145-b224c92ddda6.PNG)
 
 ## 객체(Objects)
 
@@ -35,9 +35,8 @@ console.log(x, y, a, b); // -> 10, 'abc', 10, 'abc'
 2) arr.push(1);
 ```
 
-[1번 코드](https://www.notion.so/4a8a1fce5e8e419fbca3d9204776ce15)
-
-[2번 코드](https://www.notion.so/581f8a7b268c42ed8a443c3411d48ef6)
+[1번 코드](https://user-images.githubusercontent.com/59503369/122058192-567c5500-ce26-11eb-8af7-3c861fb5d4a5.PNG)
+[2번 코드](https://user-images.githubusercontent.com/59503369/122058247-62681700-ce26-11eb-9cc8-84d2da101b3a.PNG)
 
 arr이 갖는 변수의 값은 정적인 값이다. 변수의 값이 바뀌는 것이 아닌 메모리 속의 배열 값만 바뀌는 것이다.
 
@@ -50,7 +49,7 @@ var reference = [1];
 var refCopy = reference;
 ```
 
-[Untitled](https://www.notion.so/5ae6d54dc25f4ecc8d12926d7d08ba95)
+[](https://user-images.githubusercontent.com/59503369/122058361-8297d600-ce26-11eb-853b-3a96c73054bb.PNG)
 
 ## 참조 재할당하기
 
@@ -58,14 +57,14 @@ var refCopy = reference;
 var obj = { first: 'reference' };
 ```
 
-[메모리 상태](https://www.notion.so/d39b165ed6d5413e8de22a2ca1d846bc)
+[메모리 상태](https://user-images.githubusercontent.com/59503369/122058443-95aaa600-ce26-11eb-8a4b-50b95d44c176.PNG)
 
 ```jsx
 var obj = { first: 'reference' };
 obj = { second: 'ref2' };
 ```
 
-[Untitled](https://www.notion.so/47ff900d31b64fc2adb311b359d4984d)
+[](https://user-images.githubusercontent.com/59503369/122058487-9fcca480-ce26-11eb-9cb4-6bc77f1873d5.PNG)
 
 이 경우에는 객체 { first: 'reference' } 가 더이상 접근 불가능하고 가비지 콜렉션 될 수 있다.
 
@@ -108,7 +107,7 @@ var twoHundred = multiply(hundred, two);
 
 hundred라는 변수에 100이라는 값이 저장되어있고 이 값을 multiply로 넘겼을 때, 변수 x는 100이라는 값을 가지게 됩니다. 값은 우리가 = 연산자를 써서 할당한 것 처럼 복사되고, hundred 변수는 아무런 영향도 미치지 않습니다.
 
-[PAUSE 상태](https://www.notion.so/3e67236c75db46978a72793f52c6410d)
+[PAUSE 상태](https://user-images.githubusercontent.com/59503369/122058525-aa873980-ce26-11eb-9c5f-ddf908742dfe.PNG)
 
 ## 순수 함수(Pure Functions)
 
